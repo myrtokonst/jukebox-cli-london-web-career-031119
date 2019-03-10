@@ -43,7 +43,7 @@ def run(songs)
   loop do 
   puts "Please enter a command:"
   command = gets.chomp 
-    elsif command == "list"
+    if command == "list"
   list(songs)
     elsif command == "play"
   play(songs)
